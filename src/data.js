@@ -282,7 +282,7 @@ export const informationData = [
     heading: "We deliver exceptional",
     subheading: "digital experiences",
     description:
-      "Our team specializes in creating innovative solutions that transform businesses. Our value isn't limited to building teams but is equally distributed across the project lifecycle. We are a custom software development company that guarantees the successful delivery of your project.",
+      "Our team specializes in creating innovative solutions that transform businesses. Our value isn't limited to building teams but is equally distributed across the project lifecycle. We guarantee the successful delivery of your project.",
     highlightText: "innovative solutions",
     video: "/assets/videos/demo-video-2.mp4",
     linkText: "Learn more about us",

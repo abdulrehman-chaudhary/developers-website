@@ -53,9 +53,9 @@ const Information = () => {
                     </div>
                   </div>
                   {/* description */}
-                  <div className="flex grow flex-col gap-6 xl:gap-12.75">
+                  <div className="flex  flex-col gap-6 xl:gap-12.75">
                     <div>
-                      <p className="text-medium-gray text-base md:text-lg leading-relaxed">
+                      <p className="text-medium-gray grow text-base md:text-lg leading-relaxed">
                         {data.description.split(data.highlightText)[0]}
                         <span className="bg-linear-to-r from-grad-pink to-grad-purple bg-clip-text text-transparent">
                           {data.highlightText}
