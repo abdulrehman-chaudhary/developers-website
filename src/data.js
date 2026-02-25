@@ -135,23 +135,23 @@ export const caseStudies = [
     id: 1,
     title: "Website Design for SCFC Canada",
     description:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario...",
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
     image: "/assets/images/Case-study-image-1.webp",
     bgColor: "bg-[#F1F2FF]",
   },
   {
     id: 2,
-    title: "Mobile App for TechLogistics",
+    title: "Website Design for SCFC Canada",
     description:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario...",
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
     image: "/assets/images/Case-study-image-2.webp",
     bgColor: "bg-[#F0FFF7]",
   },
   {
     id: 3,
-    title: "E-commerce Platform Architecture",
+    title: "Website Design for SCFC Canada",
     description:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario...",
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
     image: "/assets/images/Case-study-image-3.webp",
     bgColor: "bg-[#FFF4F4]",
   },
@@ -159,15 +159,15 @@ export const caseStudies = [
     id: 4,
     title: "Website Design for SCFC Canada",
     description:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario...",
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
     image: "/assets/images/Case-study-image-1.webp",
     bgColor: "bg-[#F1F2FF]",
   },
   {
     id: 5,
-    title: "Mobile App for TechLogistics",
+    title: "Website Design for SCFC Canada",
     description:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario...",
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
     image: "/assets/images/Case-study-image-2.webp",
     bgColor: "bg-[#F0FFF7]",
   },
@@ -199,7 +199,7 @@ export const testimonials = [
     image: "/assets/images/customer.jpg",
     rating: 5,
     quote:
-      "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I've came across so far.",
+      "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I've came across so far. Wouldn't be hesitated to introduce their work to someone else.",
   },
   {
     id: 4,
@@ -217,7 +217,7 @@ export const testimonials = [
     image: "/assets/images/resources-image-5.png",
     rating: 5,
     quote:
-      "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I've came across so far.",
+      "Without any doubt I recommend Alcaline Solutions as one of the best web design and digital marketing agencies. One of the best agencies I've came across so far. Wouldn't be hesitated to introduce their work to someone else.",
   },
 ];
 

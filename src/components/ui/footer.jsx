@@ -18,7 +18,7 @@ const Footer = () => {
               </span>
             </div>
             <div>
-              <p className="text-[#718096] text-[18px] leading-7">
+              <p className="text-medium-gray text-[18px] leading-7">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
@@ -32,29 +32,37 @@ const Footer = () => {
           </div>
           {/* Column 2 */}
           <div className="flex flex-col gap-6">
-            <h3 className="text-[#4A5568] font-bold text-base">Links</h3>
-            <ul className="flex flex-col gap-2">
-              {footerLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-[#718096] hover:text-purple-600 text-sm transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <div>
+              <h3 className="text-brand-gray font-bold text-base">Links</h3>
+            </div>
+            <div>
+              <ul className="flex flex-col gap-2">
+                {footerLinks.map((link) => (
+                  <li key={link.name}>
+                    <a
+                      href={link.href}
+                      className="text-medium-gray hover:text-purple-600 text-sm transition-colors"
+                    >
+                      {link.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
           {/* Column 3 */}
           <div className="flex flex-col gap-6">
-            <h3 className="text-[#4A5568] font-bold text-base">Contact us</h3>
+            <div>
+              <h3 className="text-brand-gray font-bold text-base">
+                Contact us
+              </h3>
+            </div>
             <div className="flex flex-col gap-4">
-              <p className="text-[#718096] text-sm leading-relaxed">
+              <p className="text-medium-gray text-sm leading-relaxed">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <p className="text-[#718096] text-sm">+923183561921</p>
+              <p className="text-medium-gray text-sm">+923183561921</p>
             </div>
           </div>
           {/* Column 4 */}
@@ -71,7 +79,7 @@ const Footer = () => {
         <hr className="w-full border-t border-[#CBD5E0]" />
         {/* Copyright */}
         <div className="pt-8 pb-4 text-center">
-          <p className="text-[#4A5568] text-xs">
+          <p className="text-brand-gray text-xs">
             © 2023 Copyright by IK Developers. All rights reserved.
           </p>
         </div>

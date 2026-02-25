@@ -1,8 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:wght@100..900&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --color-brand-pink: #f7666f;
+  --color-brand-blue-transparent: #406aff;
+  --color-brand-dark: #1a202c;
+  --color-brand-gray: #4a5568;
+  --color-brand-light: #fafafa;
+  --color-bg-light: #f7f7fa;
+  --color-brand-blue: #3d63ea;
+  --color-grad-pink: #f76680;
+  --color-grad-purple: #57007b;
+  --color-light-black: #2d3748;
+  --color-light-gray: #a0aec0;
+  --color-medium-gray: #718096;
+}
+
 body {
   font-family: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -44,7 +64,6 @@ html {
   animation-delay: 0.1s;
 }
 
-
 .bar {
   position: relative;
 }
@@ -52,15 +71,13 @@ html {
 .bar::before {
   content: "";
   position: absolute;
-  bottom: -33px;
+  bottom: -53px;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
   height: 33px;
-  /* background-color: #57007B; */
-  background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
 }
-
 
 .bar-top {
   position: relative;
@@ -69,10 +86,10 @@ html {
 .bar-top::before {
   content: "";
   position: absolute;
-  top: -33px;
+  top: -53px;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
   height: 33px;
-  background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
 }
