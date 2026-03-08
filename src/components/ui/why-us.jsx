@@ -23,7 +23,7 @@ const WhyUs = () => {
         </div>
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6.25">
-          {whyUsFeatures.map((feature) => (
+          {whyUsFeatures?.map((feature) => (
             <div
               key={feature.id}
               className="bg-brand-light border border-[#E7DAED] p-8 md:p-10 xl:py-14.5 flex flex-col lg:flex-row gap-6 transition-all duration-300 hover:shadow-lg"

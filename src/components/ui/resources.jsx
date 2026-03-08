@@ -38,7 +38,7 @@ const Resources = () => {
         {/* Embla */}
         <div className="w-full overflow-hidden" ref={emblaRef}>
           <div className="flex gap-8 md:gap-10 xl:gap-15">
-            {resourcesData.map((resource) => (
+            {resourcesData?.map((resource) => (
               <div
                 key={resource.id}
                 className="shrink-0 w-72 md:w-80 flex flex-col gap-5 group cursor-pointer max-w-63.5 max-h-78.75"

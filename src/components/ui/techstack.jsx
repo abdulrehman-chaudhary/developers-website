@@ -27,7 +27,7 @@ const TechStack = () => {
         {/* Tabs */}
         <div className="flex flex-col gap-12 lg:gap-16 xl:gap-20">
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 lg:gap-8">
-            {techStackData.map((category) => (
+            {techStackData?.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setActiveTab(category.id)}
@@ -47,7 +47,7 @@ const TechStack = () => {
           </div>
           {/* Tech grid */}
           <div className="w-full flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-16">
-            {activeCategory.technologies.map((tech, index) => (
+            {activeCategory.technologies?.map((tech, index) => (
               <div
                 key={index}
                 className="flex items-center justify-center transition-all duration-300 hover:scale-110"

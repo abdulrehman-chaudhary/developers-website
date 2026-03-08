@@ -56,7 +56,7 @@ const CaseStudies = () => {
         </div>
         {/* Cards */}
         <div className="grid gap-6 sm:gap-8 lg:gap-10">
-          {caseStudies.slice(0, visibleCount).map((study) => (
+          {caseStudies.slice(0, visibleCount)?.map((study) => (
             <div
               key={study.id}
               className={`${study.bgColor} rounded-3xl overflow-hidden border border-[#E7DAED] flex flex-col lg:flex-row opacity-0 translate-y-8 animate-fadeSlideIn`}

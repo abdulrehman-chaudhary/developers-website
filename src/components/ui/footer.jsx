@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div>
               <ul className="flex flex-col gap-2">
-                {footerLinks.map((link) => (
+                {footerLinks?.map((link) => (
                   <li key={link.name}>
                     <a
                       href={link.href}
@@ -68,7 +68,7 @@ const Footer = () => {
           {/* Column 4 */}
           <div className="flex flex-col justify-end items-start lg:items-end">
             <div className="flex gap-0">
-              {socialIcons.map((item, index) => (
+              {socialIcons?.map((item, index) => (
                 <a key={index} href={item.href} className="w-10 h-10">
                   <img src={item.src} alt="social icon" />
                 </a>

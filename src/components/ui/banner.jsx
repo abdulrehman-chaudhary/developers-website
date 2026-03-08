@@ -25,7 +25,7 @@ const Banner = () => {
           <div className="hidden lg:block">
             {/* Top Row */}
             <div className="grid grid-cols-3 gap-8 ">
-              {[steps[0], steps[2], steps[4]].map((step) => (
+              {[steps[0], steps[2], steps[4]]?.map((step) => (
                 <div
                   key={step.number}
                   className="bar bg-white rounded-lg lg:pl-4 xl:pl-6 p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border border-[#E7DAED] w-full lg:max-w-75 xl:max-h-40 flex flex-col gap-3.75"
@@ -56,7 +56,7 @@ const Banner = () => {
             </div>
             {/* Bottom Row */}
             <div className="grid grid-cols-3 gap-8  lg:pl-10 xl:pl-16">
-              {[steps[1], steps[3], steps[5]].map((step) => (
+              {[steps[1], steps[3], steps[5]]?.map((step) => (
                 <div
                   key={step.number}
                   className="bar-top bg-white rounded-lg lg:pl-4 xl:pl-6 p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border border-[#E7DAED] w-full lg:max-w-75 xl:max-h-40 flex flex-col gap-3"
@@ -80,7 +80,7 @@ const Banner = () => {
           </div>
           {/* Mobile */}
           <div className="lg:hidden flex flex-col gap-6">
-            {steps.map((step, index) => (
+            {steps?.map((step, index) => (
               <div
                 key={index}
                 className="bg-white rounded-lg p-6 shadow-sm flex flex-col gap-3 border border-[#E7DAED]"

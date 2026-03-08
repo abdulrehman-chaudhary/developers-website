@@ -6,7 +6,7 @@ const Logos = () => {
     <section className="w-full bg-[#F9FAFB] py-12 md:py-16 overflow-hidden">
       {/* Marquee */}
       <div className="relative w-full flex animate-marquee">
-        {logosData.map((logo) => (
+        {logosData?.map((logo) => (
           <div
             key={`first-${logo.id}`}
             className="shrink-0 px-8 md:px-12 lg:px-16 flex items-center justify-center"
@@ -18,7 +18,7 @@ const Logos = () => {
             />
           </div>
         ))}
-        {logosData.map((logo) => (
+        {logosData?.map((logo) => (
           <div
             key={`second-${logo.id}`}
             className="shrink-0 px-8 md:px-12 lg:px-16 flex items-center justify-center"

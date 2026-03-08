@@ -32,7 +32,7 @@ const Information = () => {
         {/* First section */}
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">
-            {informationData.map((data) => (
+            {informationData?.map((data) => (
               <div
                 key={data.id}
                 className="w-full flex-none pr-1 flex flex-col lg:flex-row items-center gap-10 lg:gap-16"

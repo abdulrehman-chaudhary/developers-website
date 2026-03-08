@@ -44,7 +44,7 @@ const Services = () => {
           {/* Embla */}
           <div className="overflow-hidden px-5" ref={emblaRef}>
             <div className="flex gap-6">
-              {servicesData.map((service, index) => {
+              {servicesData?.map((service, index) => {
                 const isActive = index === activeIndex;
                 return (
                   <div
@@ -90,7 +90,7 @@ const Services = () => {
           <div className="relative flex items-center justify-between md:justify-center px-5">
             {/* Dots */}
             <div className="flex items-center gap-2">
-              {servicesData.map((_, index) => (
+              {servicesData?.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => emblaApi?.scrollTo(index)}

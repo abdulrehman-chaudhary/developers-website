@@ -20,7 +20,7 @@ const Header = () => {
           </div>
           {/* Center */}
           <div className="hidden lg:flex items-center gap-12">
-            {navLinks.map((link) => (
+            {navLinks?.map((link) => (
               <a
                 key={link.name}
                 href={link.href}

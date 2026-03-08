@@ -23,7 +23,7 @@ const Build = () => {
         </div>
         <div className="flex flex-col gap-10 lg:gap-15 xl:gap-23.75">
           {/* Sections */}
-          {buildData.map((item) => (
+          {buildData?.map((item) => (
             <div
               key={item.id}
               className={`flex flex-col ${item.imagePosition === "right"

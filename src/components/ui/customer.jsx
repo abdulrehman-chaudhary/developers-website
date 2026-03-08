@@ -110,7 +110,7 @@ const Customer = () => {
           </div>
           {/* Avatars Row */}
           <div className="flex justify-center items-end gap-2 md:gap-6 lg:gap-10 xl:gap-14 h-32 md:h-40 lg:max-h-45 xl:max-h-50">
-            {testimonials.map((testimonial, index) => {
+            {testimonials?.map((testimonial, index) => {
               const isActive = index === activeIndex;
               return (
                 <button
